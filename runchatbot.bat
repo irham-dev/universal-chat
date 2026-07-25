@@ -18,4 +18,4 @@ cd ../client
 call npm install
 
 echo 4. Start/run server frontend...
-start cmd /k "title Frontend Client && npm start"
+start cmd /k "title Frontend Client && npm run desktop"
