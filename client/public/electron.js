@@ -7,7 +7,8 @@ function createWindow() {
     height: 800,
     autoHideMenuBar: true,
     webPreferences: {
-      nodeIntegration: true
+      nodeIntegration: true,
+      partition: 'persist:cypherbot'
     }
   });
 
